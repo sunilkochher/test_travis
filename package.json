@@ -1,0 +1,27 @@
+{
+  "name": "testing_travis",
+  "version": "1.0.0",
+  "description": "testing purpose",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .json --ext .md",
+    "pretest": "npm run lint",
+    "test": "echo \"No tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilkochher/test_travis.git"
+  },
+  "keywords": [
+    "travis"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunilkochher/test_travis/issues"
+  },
+  "homepage": "https://github.com/sunilkochher/test_travis#readme",
+  "dependencies": {
+    "eslint": "^5.4.0"
+  }
+}
