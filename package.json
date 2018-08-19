@@ -7,7 +7,7 @@
     "eslint": "^5.4.0"
   },
   "scripts": {
-    "lint": "eslint . --ext .js --ext .md",
+    "lint": "eslint . --ext .json --ext .md",
     "pretest": "npm run lint",
     "test": "echo \"No tests\""  
   },
